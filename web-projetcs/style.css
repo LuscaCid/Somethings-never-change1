@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 62.5%;
+    --fc-heading : #e9e6e6;
+    --fs-heading :'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(238,132,179);
+    z-index: -1;
+    background: radial-gradient(circle, rgb(235, 103, 162) 0%, rgb(19, 95, 182) 100%);
+}
+main{
+    padding: 2.6rem 1.6rem;
+    min-height: 83.6rem;
+    background: rgba(34, 58, 87, 0.466);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 7.9rem auto;
+    width: 50.0rem;
+    height: 50.0rem;
+    align-items: center;
+}
+header{
+    font-family: var(--fs-heading);
+    
+}
+header p {
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(240, 166, 240);
+
+}
+header h1{
+    padding-bottom: 1.5rem;
+    font-size: 3.8rem;
+    color: var(--fc-heading);
+    border-bottom: 1px solid rgb(231, 230, 230);
+}
+#tres-itens{
+    margin-top: 1.6rem;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+}
+#locate-btns{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    width: 100%;
+    
+    border-bottom: 1px solid #231, 230, 230;
+    justify-content: space-between;
+    
+}
+
+main #surreal{
+    rotate: 90deg;
+    width:min-content;
+    height:48rem ;
+    border-radius: 15px;
+}
+#locate-btns button{
+    display: inline-block;
+
+    background-color: rgb(247, 143, 160);
+    border: none;
+    border-radius: 14px;
+    padding: 1.5rem 1.2rem;
+    font-family: var(--fs-heading);
+    color: var(--fc-heading);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+#locate-btns button + button{
+    margin-left: 12px;
+}
+#locate-btns button:hover{
+    background-color: rgb(248, 135, 154);
+    cursor: pointer;
+}   
+
+
+ul {
+    list-style: none;
+}
+ul li img{
+    filter: invert(100%);
+    width: 5.5rem ;
+
+}
+footer p{
+    max-width: 26.0rem;
+    
+    font-size: 1.6rem;
+    font-family: 'Archivo',sans serif;
+    color: var(--fc-heading);
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-bottom: 3.2rem;
+}
+ul li{
+    position: fixed;
+    right: 4rem;
+    bottom: center;
+
+}
